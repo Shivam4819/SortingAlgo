@@ -60,7 +60,16 @@ public class Sorting {
     // min.findMinLength();
     
     ArraySubset array=new ArraySubset();
-    array.findSubset();
+    //array.findSubset();
+    
+    KSorted k=new KSorted();
+   // k.nearlySort();
+   
+   DifferentMachine diff=new DifferentMachine();
+   //diff.sortElements();
+   
+   GreaterPower great=new GreaterPower();
+   great.findGreaterPow();
     }
     
 }
