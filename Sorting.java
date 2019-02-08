@@ -54,25 +54,34 @@ public class Sorting {
         }
 */
      SortArray sort=new SortArray();
-     sort.sortArray();
+     //sort.sortArray();
      
      MinimumLength min=new MinimumLength();
-     min.findMinLength();
+     //min.findMinLength();
     
     ArraySubset array=new ArraySubset();
-    array.findSubset();
+    //array.findSubset();
     
     KSorted k=new KSorted();
-    k.nearlySort();
+    //k.nearlySort();
    
     DifferentMachine diff=new DifferentMachine();
-    diff.sortElements();
+    //diff.sortElements();
    
     GreaterPower great=new GreaterPower();
-    great.findGreaterPow();
+    //great.findGreaterPow();
   
     DifferenceWithK differnce=new DifferenceWithK();
-    differnce.findDifference();
+    //differnce.findDifference();
+    
+    SortInLinearTime sortinlinear=new SortInLinearTime();
+   // sortinlinear.linearTime();
+    
+    SortInOrder sortinorder=new SortInOrder();
+    //sortinorder.sortInOrder();
+    
+    WaveForm wave=new WaveForm();
+    wave.sortWave();
     }
     
 }
