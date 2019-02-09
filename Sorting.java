@@ -81,7 +81,16 @@ public class Sorting {
     //sortinorder.sortInOrder();
     
     WaveForm wave=new WaveForm();
-    wave.sortWave();
+   // wave.sortWave();
+    
+    FindAPair find=new FindAPair();
+   // find.findPair();
+    
+    AlmostSorted almostsort=new AlmostSorted();
+    //almostsort.almostSorted();
+    
+    DatesSorting date=new DatesSorting();
+    date.sortDates();
     }
     
 }

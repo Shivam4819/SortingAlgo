@@ -29,5 +29,16 @@ public class WaveForm {
             System.out.println(arr[i]);
         }
         
+        for(int i=0;i<=arr.length;i=i+2){
+            if(i<arr.length){
+            key=arr[i+1];
+            arr[i+1]=arr[i];
+            arr[i]=key;
+            }
+        }
+        for(int i=0;i<arr.length;i++){
+            System.out.println(arr[i]);
+        }
+        
     }
 }
