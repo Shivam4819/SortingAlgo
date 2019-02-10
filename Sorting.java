@@ -16,81 +16,51 @@ public class Sorting {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-      /*  int arr[]={2, 2, 5, 5, 6, 8, 8, 8};
-        int temp=0,count=1;
-        int count1[]=new int[4];
-        System.out.println("length is"+arr.length);
-        for(int i=0;i<arr.length-1;i++){
-            for(int j=0;j<arr.length-i-1;j++){
-                if(arr[j]>arr[j+1]){
-                    temp=arr[j];
-                    arr[j]=arr[j+1];
-                    arr[j+1]=temp;
-                }
-                
-            }
-        }
-        for(int i=0;i<arr.length;i++){
-            System.out.println(arr[i]);
-        }
-        int j=0;
-        for(int i=0;i<arr.length-1;i++){
-            if(arr[i]==arr[i+1]){
-                count++;
-                count1[j]=count;
-            }
-            else{
-                j++;
-                count=1;
-                count1[j]=count;
-            }
-        }
-        
-       
-        System.out.println("count->"+count);
-        
-        for(int i=0;i<count1.length;i++){
-            System.out.println(count1[i]);
-        }
-*/
-     SortArray sort=new SortArray();
-     //sort.sortArray();
      
-     MinimumLength min=new MinimumLength();
-     //min.findMinLength();
+     SortFrequencyWise sortfrequency=new SortFrequencyWise();
+     sortfrequency.sortAccToFrequency();
+     
+     SortArray sort=new SortArray();
+     sort.sortArray();
+     
+     MinimumLength minimum=new MinimumLength();
+     minimum.findMinLength();
     
-    ArraySubset array=new ArraySubset();
-    //array.findSubset();
+    ArraySubset subset=new ArraySubset();
+    subset.findSubset();
     
-    KSorted k=new KSorted();
-    //k.nearlySort();
+    KSorted ksorted=new KSorted();
+    ksorted.nearlySort();
    
-    DifferentMachine diff=new DifferentMachine();
-    //diff.sortElements();
+    DifferentMachine differentMachine=new DifferentMachine();
+    differentMachine.sortElements();
    
-    GreaterPower great=new GreaterPower();
-    //great.findGreaterPow();
+    GreaterPower greater=new GreaterPower();
+    greater.findGreaterPow();
   
-    DifferenceWithK differnce=new DifferenceWithK();
-    //differnce.findDifference();
+    DifferenceWithK differencewithK=new DifferenceWithK();
+    differencewithK.findDifference();
     
     SortInLinearTime sortinlinear=new SortInLinearTime();
-   // sortinlinear.linearTime();
+    sortinlinear.linearTime();
     
     SortInOrder sortinorder=new SortInOrder();
-    //sortinorder.sortInOrder();
+    sortinorder.sortInOrder();
     
     WaveForm wave=new WaveForm();
-   // wave.sortWave();
+    wave.sortWave();
     
     FindAPair find=new FindAPair();
-   // find.findPair();
+    find.findPair();
     
     AlmostSorted almostsort=new AlmostSorted();
-    //almostsort.almostSorted();
+    almostsort.almostSorted();
     
     DatesSorting date=new DatesSorting();
     date.sortDates();
+    
+    MaximumGuest max=new MaximumGuest();
+    max.maxGuest();
     }
     
 }
